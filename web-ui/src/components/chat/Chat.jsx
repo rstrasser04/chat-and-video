@@ -8,6 +8,8 @@ import * as config from '../../config';
 import VideoPlayer from '../videoPlayer/VideoPlayer';
 import SignIn from './SignIn';
 
+import { useAuth0, withAuthenticationRequired } from '@auth0/auth0-react';
+
 // Styles
 import './Chat.css';
 
